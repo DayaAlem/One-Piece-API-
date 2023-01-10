@@ -7,10 +7,6 @@ import { onepieceapi } from '../src/features/onepieceapi'
 import { Routes, Route} from 'react-router-dom'
 import { Nakama } from './pages/[id]'
  
- 
-
-
-
 export default function App() {
   const { data : api = []} = onepieceapi.useGetCrewsQuery();
   const [toggleState, setToggleState] = useState(false);
@@ -20,7 +16,7 @@ export default function App() {
   }
   return (
     <div className="App">
-<h1><a href="/">Marine-Repport</a></h1>       
+      <h1><a href="/">Marine-Repport</a></h1>       
 
       <Routes>
       <Route path='/' element={<Squad />}/>

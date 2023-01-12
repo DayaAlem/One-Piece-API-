@@ -4,17 +4,22 @@
   padding: 2rem;
   text-align: center;
 }
+@font-face {
+  font-family: op;
+  src: url(./assets/onepiecefont.ttf);
+}
 
 h1 {
-  color: rgb(4, 40, 123); 
+  color: rgb(4, 40, 123);
   font-family: op;
   font-size: 9.2rem;
- }
-  @font-face {
-    font-family: op;
-    src: url(./assets/onepiecefont.ttf)
 }
-  
+a:visited {
+  color: rgb(4, 40, 123);
+}
+a:link {
+  color: rgb(4, 40, 123);
+}
 
 .logo {
   height: 6em;
@@ -50,5 +55,3 @@ h1 {
 .read-the-docs {
   color: #888;
 }
-
-
